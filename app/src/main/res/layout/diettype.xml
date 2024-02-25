@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DiettypeActivity"
+    android:background="@drawable/dowlo"
+    >
+
+    <TextView
+        android:id="@+id/DietType"
+        android:text="DietType"
+        android:textSize="50dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="MissingConstraints"
+        android:padding="15dp"
+        />
+    <TextView
+        android:id="@+id/question2"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="what does diet type suits you ?"
+        app:layout_constraintTop_toBottomOf="@+id/DietType"
+        app:layout_constraintEnd_toEndOf="@id/DietType"
+        app:layout_constraintStart_toStartOf="@id/DietType"
+        android:layout_marginTop="60dp"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        />
+
+    <Button
+        android:id="@+id/DashDiet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dash Diet"
+        android:textSize="20dp"
+        app:layout_constraintTop_toBottomOf="@+id/question2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="15dp"
+        tools:ignore="MissingConstraints" />
+    <Button
+        android:id="@+id/KetoDiet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Keto Diet"
+        android:textSize="20dp"
+        app:layout_constraintTop_toBottomOf="@+id/DashDiet"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="15dp"
+        tools:ignore="MissingConstraints" />
+    <Button
+        android:id="@+id/vegan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vegan"
+        android:textSize="20dp"
+        app:layout_constraintTop_toBottomOf="@+id/KetoDiet"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="15dp"
+        tools:ignore="MissingConstraints" />
+    <Button
+        android:id="@+id/Vegetarian"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vegetarian"
+        android:textSize="20dp"
+        app:layout_constraintTop_toBottomOf="@+id/vegan"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="15dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/Meditarian"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Meditarian"
+        android:textSize="20dp"
+        app:layout_constraintTop_toBottomOf="@+id/Vegetarian"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="15dp"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

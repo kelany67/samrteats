@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".healthgoals"
+    android:background="@drawable/dowlo"
+    >
+
+<TextView
+    android:id="@+id/healthgoals"
+    android:text="Health Goals"
+    android:textSize="50dp"
+    android:textColor="@color/black"
+    android:textStyle="bold"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    tools:ignore="MissingConstraints"
+    />
+
+    <TextView
+        android:id="@+id/question1"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="What are your health goals that you would like to achieve?"
+        app:layout_constraintTop_toBottomOf="@+id/healthgoals"
+        app:layout_constraintEnd_toEndOf="@id/healthgoals"
+        app:layout_constraintStart_toStartOf="@id/healthgoals"
+        android:layout_marginTop="60dp"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        />
+
+    <Button
+
+        android:id="@+id/weightgain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gain weight "
+        tools:ignore="MissingConstraints"
+        app:layout_constraintTop_toBottomOf="@id/question1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_margin="35dp"
+
+        />
+
+    <Button
+        android:id="@+id/weightloss"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="weight loss "
+        app:layout_constraintTop_toBottomOf="@id/weightgain"
+        app:layout_constraintEnd_toEndOf="@id/question1"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_margin="35dp"
+        />
+
+    <Button
+        android:id="@+id/weightmaitain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Maintain Weight "
+        app:layout_constraintTop_toBottomOf="@id/weightloss"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_margin="35dp"
+        />
+
+
+    <Button
+        android:id="@+id/Btnext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_margin="15dp"
+        app:layout_constraintTop_toBottomOf="@id/weightmaitain"
+        android:text="Next" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

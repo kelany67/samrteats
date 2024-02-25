@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1057617370206",
+    "project_id": "authentication-9176d",
+    "storage_bucket": "authentication-9176d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1057617370206:android:65936c80fe060e09ae68cf",
+        "android_client_info": {
+          "package_name": "com.example.nutri"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8RVzgXnzUXM8Fjwy0F57Bn5MQsZI-U3Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
